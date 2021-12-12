@@ -39,6 +39,8 @@
     },
     "require-dev": {
         "doctrine/annotations": "^1.13",
+        "doctrine/doctrine-bundle": "^2.5",
+        "doctrine/doctrine-migrations-bundle": "^3.1",
         "doctrine/orm": "^2.11",
         "friendsofphp/php-cs-fixer": "^3.7",
         "jangregor/phpstan-prophecy": "^1.0",
@@ -51,6 +53,7 @@
         "phpunit/php-code-coverage": "^9.1.0",
         "phpunit/phpcov": "^8.0",
         "phpunit/phpunit": "^9.5",
+        "pixelfederation/doctrine-resettable-em-bundle": "dev-resettable_doctrine_logger",
         "ramsey/uuid": "^4.1",
         "swoole/ide-helper": "^4.8",
         "symfony/debug-pack": "^1.0",
@@ -143,6 +146,9 @@
         "platform": {
             "php": "7.4.13",
             "ext-swoole": "4.5.10"
+        },
+        "allow-plugins": {
+            "phpstan/extension-installer": true
         }
     }
 }
